@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+
+.nav_link {
+    padding: 10px;
+    color: black;
+    font-size: 1.3em;
+}
+
+#sub_title {
+    color: red;
+}
