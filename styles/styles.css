@@ -1,13 +1,62 @@
+
+
 body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+header, footer {
     background-color: lightblue;
 }
 
 .nav_link {
-    padding: 10px;
-    color: black;
+    padding: 20px;
     font-size: 1.3em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    color: navy;
+    background-color: white;
+}
+
+p, h3{
+    text-align: center;
+}
+
+#main-title {
+    font-size: 4em;
+    text-align: center;
 }
 
 #sub_title {
     color: red;
+}
+
+footer {
+    padding: 20px;
 }
