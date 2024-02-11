@@ -5,6 +5,7 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
 nav a {
     text-align: center;
     color:lightgray;
@@ -15,6 +16,9 @@ nav a {
     text-align: center;
 }
 .button-box {
+    text-align: center;
+}
+.test {
     text-align: center;
 }
 main section {
