@@ -200,9 +200,7 @@ main section img {
     max-width: 1600px;
     margin: 0 auto;
 }
-.faq-grid {
-    
-}
+
 #hero-img1 {
     width: 100%;
 }
@@ -212,13 +210,14 @@ main section img {
     font-size: 2.5em;
     margin-top: 10px;
     text-align: center;
+    padding: 30px;
 }
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
     font-family: Mulish;
     font-size: 22px;
-    background-color: #eee;
-    color: #444;
+    background-color: rgba(20,30,13, .7);
+    color: lightgray;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -229,7 +228,7 @@ main section img {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .collapsible:hover {
-    background-color: #ccc;
+    background-color: rgba(20, 30, 13, 0.586);
   }
   
   /* Style the collapsible content. Note: hidden by default */
