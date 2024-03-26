@@ -25,6 +25,8 @@ nav a {
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    font-size: 120%;
 }
 header {
     background-color:#4D7093;
@@ -51,7 +53,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    
+    margin: 0 100px;
 }
 #main-title {
 
