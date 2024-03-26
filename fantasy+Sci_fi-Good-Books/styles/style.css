@@ -52,7 +52,7 @@ nav a:hover {
 #main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 50px;
     margin: 0 100px;
 }
 #main-title {
