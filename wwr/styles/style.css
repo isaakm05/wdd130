@@ -257,6 +257,7 @@ main section img {
     color: white;
     float: right;
     margin-left: 5px;
+    font-weight: bold;
   }
   
   .active:after {
