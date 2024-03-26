@@ -215,10 +215,16 @@ main section img {
 #dropdowns {
     text-align: center;
 }
+
+
+
+
+
+
+
+
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-    font-family: Mulish;
-    font-size: 22px;
     background-color: rgba(20,30,13, .7);
     color: lightgray;
     cursor: pointer;
@@ -227,13 +233,14 @@ main section img {
     border: none;
     text-align: left;
     outline: none;
+    font-family: Mulish;
+    font-size: 22px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .collapsible:hover {
     background-color: rgba(20, 30, 13, 0.586);
   }
-  
   /* Style the collapsible content. Note: hidden by default */
   .answers {
     margin: 0 auto;
@@ -245,16 +252,21 @@ main section img {
 
   }
   .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
+    content: '\002B'; /* Unicode character for "plus" sign (+) */
+    font-size: 23px;
     color: white;
     float: right;
     margin-left: 5px;
   }
   
   .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2212"; /* Unicode character for "minus" sign (-) */
   }
+
+
+
+
+
 
 /* FORM CSS */
 
