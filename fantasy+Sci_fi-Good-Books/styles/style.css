@@ -142,9 +142,69 @@ footer .social img {
 
 
 
+/*   BOOK CSS   */
 
+#book-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 100px;
+    justify-items: center;
+}
 
+#book-grid h1 {
+    font-family: "Pirata One", Georgia;
+}
+#book-grid ul {
+    margin: 0 8%;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+#book-grid ul li {
+    margin-bottom: 10px;
+}
+#book-grid img {
+    width: 50%;
+}
 
+#eragon-img {
+    grid-column: 1/2;
+}
+#inheritance-h1{
+    grid-column: 1/2;
+}
+#inheritance-ul{
+    grid-column: 2/3;
+}
+
+#scythe-img {
+    grid-column: 1/2;
+}
+#arcofascythe-h1{
+    grid-column: 1/2;
+}
+#arcofascythe-ul{
+    grid-column: 2/3;
+}
+
+#renegades-img {
+    grid-column: 1/2;
+}
+#renegades-h1{
+    grid-column: 1/2;
+}
+#renegades-ul{
+    grid-column: 2/3;
+}
+
+#wheeloftime-img {
+    grid-column: 1/2;
+}
+#wheeloftime-h1{
+    grid-column: 1/2;
+}
+#wheeloftime-ul{
+    grid-column: 2/3;
+}
 
 
 
