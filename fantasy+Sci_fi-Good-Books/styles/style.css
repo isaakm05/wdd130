@@ -207,6 +207,89 @@ footer .social img {
 }
 
 
+/*   AUTHOR CSS   */
+
+#author-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 100px;
+    justify-items: center;
+}
+#author-grid img {
+    width: 10em;
+    display: block;
+    margin: 0 auto;
+}
+#author-grid img, h1, h2, ul {
+    padding: 1em;
+    margin: 0 auto;
+}
+
+#author-grid h1, h2 {
+    font-family: "Pirata One", Georgia;
+    text-align: center;
+}
+#author-grid ul {
+    margin: 0 8%;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
+#bs-main {
+    grid-column: 1/2;
+}
+#bs-list {
+    grid-column: 2/3;
+    align-content: center;
+}
+#stormlight {
+    grid-column: 1/2;
+}
+#mistborn {
+    grid-column: 2/3;
+}
+#reckoners {
+    grid-column: 1/2;
+}
+#rr-main {
+    grid-column: 1/2;
+}
+#rr-list {
+    grid-column: 2/3;
+    align-content: center;
+}
+#percy {
+    grid-column: 1/2;
+}
+#magnus {
+    grid-column: 2/3;
+}
+#kane {
+    grid-column: 1/2;
+}
+#bm-main {
+    grid-column: 1/2;
+}
+#bm-list {
+    grid-column: 2/3;
+    align-content: center;
+}
+#fablehaven {
+    grid-column: 1/2;
+}
+#candy {
+    grid-column: 2/3;
+}
+#kigndoms {
+    grid-column: 1/2;
+}
+
+
+
+
+
+
+
 
 
 
