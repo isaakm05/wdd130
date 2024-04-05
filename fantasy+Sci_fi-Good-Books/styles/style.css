@@ -209,10 +209,12 @@ footer .social img {
 
 /*   AUTHOR CSS   */
 
+
 #author-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 100px;
+    margin-top: 50px;
     justify-items: center;
 }
 #author-grid img {
@@ -223,6 +225,9 @@ footer .social img {
 #author-grid img, h1, h2, ul {
     padding: 1em;
     margin: 0 auto;
+}
+#author-grid ul {
+    background-color: #DFEFCA;
 }
 
 #author-grid h1, h2 {
@@ -237,6 +242,8 @@ footer .social img {
 
 #bs-main {
     grid-column: 1/2;
+    border: solid;
+    border-radius: 3px;
 }
 #bs-list {
     grid-column: 2/3;
@@ -253,6 +260,10 @@ footer .social img {
 }
 #rr-main {
     grid-column: 1/2;
+    border: solid;
+    border-radius: 3px;
+    margin-top: 25px;
+
 }
 #rr-list {
     grid-column: 2/3;
@@ -268,11 +279,15 @@ footer .social img {
     grid-column: 1/2;
 }
 #bm-main {
+    border: solid;
+    border-radius: 3px;
     grid-column: 1/2;
+    margin-top: 25px;
 }
 #bm-list {
     grid-column: 2/3;
     align-content: center;
+    height: 50%;
 }
 #fablehaven {
     grid-column: 1/2;
